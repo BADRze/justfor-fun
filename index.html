@@ -1,0 +1,61 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <style>
+            body {
+                /* text-align:center;  */
+            }
+            p {
+                font-weight:bold;
+                font-size:20px;
+            }
+            .main {
+                background-color:#435334;
+                padding:20px;
+                border-radius:20px;
+                width:fit-content;
+                margin:0 auto;
+                
+            }
+            .flex {
+                display:flex;
+                
+            }
+            .text {
+                display:flex;
+                flex-direction:column;
+                justify-content :space-around;
+                margin:0 20px;
+                /* align-items:center; */
+            }
+            .img-fr img {
+                width:200px;
+                /* height:200px; */
+                border-radius:20px;
+            }
+            .top-br {
+                border-top :1px solid black;
+            }
+            a{
+                color:black;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="main">
+            <p>welcome back badr zerkane</p>
+            <p id="welcome-el">continue your courses</p>
+            <div class="flex">
+                <div class="img-fr">
+                    <img src="html.avif" alt="frontend"/>
+                 </div>
+                <div class="text">
+                    <code><a href="#">Module 2 : html css</a></code>
+                    <code>creating columns</code>
+                    <div class="line"></div>
+                    <code class="top-br">47% of course completed</code>
+                </div>
+            </div>
+       </div>
+        <script src="index.js"></script>
+    </body>
+</html>
